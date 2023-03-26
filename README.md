@@ -32,33 +32,33 @@ Following Instructions:
 [Gazebo download and installation instructions](http://gazebosim.org).
 
 With Gazebo and ROS installed, you first need to create a catkin workspace. Navigate to your home directory and execute:
-```
+```bash
 $ mkdir -p catkin_ws/src
 $ cd catkin_ws/src
 $ catkin_init_workspace
 ```
 
 Next, download/clone the repository and copy the ```my_robot``` and ```ball_chaser``` directories into the src directory:
-```
+```bash
 $ git clone https://github.com/bmaxdk/RoboticsND-Go-Chase-It.git
 $ cp -R RoboticsND-Go-Chase-It/my_robot RoboticsND-Go-Chase-It/ball_chaser .
 $ rm -rf RoboticsND-Go-Chase-It
 ```
 
 Then navigate up to the top-level catkin workspace directory and build the executables:
-```
+```bash
 $ cd ..
 $ catkin_make
 ```
 
 Next, you can open Gazebo with the robot in it:
-```
+```bash
 $ source devel/setup.bash
 $ roslaunch my_robot world.launch
 ```
 
 To make the robot chase the white ball, open a new terminal and execute the following:
-```
+```bash
 $ source devel/setup.bash
 $ roslaunch ball_chaser ball_chaser.launch
 ```
