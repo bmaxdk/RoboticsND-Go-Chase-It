@@ -1,5 +1,5 @@
 # Go Chase It!
-Project #2 for Udacity's Robotics Nanodegree - Go Chase It
+**Project Go Chase It**: Following white ball chaser. Applied simple tracking tachnique.
 
 [image1]: project_img/img1.png "img1"
 [image2]: project_img/img2.png "img2"
