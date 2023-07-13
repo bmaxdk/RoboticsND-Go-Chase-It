@@ -1,4 +1,4 @@
-# Go Chase It!
+<h1 align="center">Go Chase It!</h1>
 **Project Go Chase It**: Following white ball chaser. Applied simple tracking tachnique.
 
 [image1]: project_img/img1.png "img1"
